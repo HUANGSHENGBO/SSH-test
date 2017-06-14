@@ -1,0 +1,13 @@
+#content .content{
+	padding:50px 0 ;
+	min-height:100px;
+	_height:100px;
+	font-size:12px;
+	
+}
+#content .content p{
+	/*display:block;*/
+	/*height:30px;*/
+	line-height:30px;
+	margin-bottom:15px;
+	}

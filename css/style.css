@@ -1,0 +1,154 @@
+/*公共样式*/
+*{
+	margin:0;
+	padding:0;
+}
+.header,.banner,.content,.news,.footer{
+	width:1141px;
+	margin:0 auto;
+	font-size:13px;
+}
+.content{
+		width:1141px;
+	margin:0 auto;
+	font-size:13px;
+}
+.float-l{
+	float:left;
+}
+.float-r{
+	float:right;
+}
+i{
+	font-style:normal;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.clearfix:after{
+	content:"";
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+ul li{
+	list-style:none;
+}
+/*头部*/
+
+
+#header .header .logo{
+	width:400px;
+	height:60px;
+	/*background:red;*/
+	margin-top:24px;
+}
+
+#header .header .logo i{
+	font-size:12px;
+	width:113px;
+	text-align:right;
+	margin-top:6px;
+	display:block;
+	line-height:26px;
+	color:#999999;
+	background:url(../images/img/line1.png) no-repeat 0 6px;
+}
+/*#header .header .nav{
+	width:617px;
+	height:74px;
+}*/
+#header .header .nav{
+	width:630px;
+	height:74px;
+	/*background:blue;*/
+	margin-top:31px;
+}
+#header .header .nav a{
+	display:block;
+	width:90px;
+	height:74px;
+	float:left;
+	
+}
+#header .header .nav a i{
+	display:block;
+	height:74px;
+
+	padding:0 16px;
+	font-size:12px;
+	line-height:74px;
+}
+#header .header .nav .active{
+	background:url(../images/img/navBg.png);
+	color:white;
+}
+/*下拉菜单*/
+#list{
+	height:200px;
+	background:url(../images/img/locationBg.png);
+}
+#list .list{
+	height:63px;
+	color:white;
+	padding:65px 0 72px 0;
+}
+#list .list h3{
+	font-size:22px;
+	height:47px;
+	font-weight:normal;
+}
+#list .list h3 i{
+	padding-left:16px;
+	border-left:2px solid #feab8d;
+	margin-left:12px;
+	font-size:17px;
+	color:#feab8d;
+	height:24px;
+	line-height:24px;
+	/*font-weight:normal;*/
+}
+#list .list p{
+	color:#feab8d;}
+#list .list p i{
+	color:white;
+}
+#list-nav {
+	background:#f7f7f7;
+}
+#list-nav .nav {
+	padding-right:10px;
+}
+#list-nav .nav a{
+	text-align:right;
+	/*display:block;*/
+	margin-right:18px;
+	line-height:60px;
+	height:60px;
+}
+
+/*底部*/
+#footer{
+	background:black;
+	
+}
+#footer .footer{
+	height:138px;
+
+	color:#7c7c7c;
+	text-align:center;
+	/*padding:*/
+}
+#footer .footer i{
+	display:inline-block;
+	margin:30px  8px 15px;
+}
+#footer .footer i a{
+	color:#7c7c7c;
+}
+#footer .footer p{
+	line-height:30px;
+}
